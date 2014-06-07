@@ -1,0 +1,14 @@
+[XBEE]
+port = /dev/ttyAMA0
+rate = 9600
+
+[DHT]
+pin = 18
+type = 22
+
+[XIVELY]
+feed_id = 11111111      ; feedID from your Xively page 
+api_key = YourXivelyAPIKey
+temp_feed_name  =  Temperature
+humidity_feed_name = RelativeHumidity
+power_feed_name = Power
